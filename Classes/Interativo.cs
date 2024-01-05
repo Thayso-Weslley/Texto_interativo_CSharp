@@ -74,7 +74,7 @@ namespace estudos.Models
         public void menu()
         {
 
-            Console.Write("\n \n Este código está dividido em tópicos. \n Pra qual deles você quer ir? \n   A. Meu orgulho... \n   B. Aprendi com você \n   C. Brilhe! \n   D. P.S. \n");
+            Console.Write("\n \n Este código está dividido em tópicos. \n Pra qual deles você quer ir? \n   A. Meu orgulho... \n   B. Aprendi com você \n   C. Brilhe! \n   D. P.S. \n\n   Opção: ");
             string x = Console.ReadLine().ToUpper().Trim();
 
             while(x != "JA LI TUDO")
